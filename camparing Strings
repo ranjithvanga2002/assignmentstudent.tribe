@@ -1,0 +1,31 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+    Scanner sc=new Scanner(System.in);
+	String a=sc.next();
+	String b=sc.next();
+	String c = new String(sc.next());
+	String d = new String(sc.next());
+	
+	if(a==b) {
+		System.out.println("Strings are equal ");
+		
+	}
+	else {
+		System.out.println("Strings are not equal ");
+	}
+
+	if(a.equals(c)) {
+		System.out.println("Strings are equal ");
+	}
+	else {
+		System.out.println("Strings are not equal ");
+	}
+	if(c.equals(d)) {
+		System.out.println("Strings are not equal ");
+	}
+	else {
+		System.out.println("Strings are not equal ");
+		
+	}
+}}
